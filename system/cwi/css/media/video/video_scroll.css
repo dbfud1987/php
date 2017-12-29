@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+.jThumbnailScroller {
+    position: relative;
+    width: 480px;
+    height: 100px;
+    margin: 0px auto 0 auto;
+    overflow: hidden;
+
+
+}
+
+.jThumbnailScroller .jTscrollerContainer {
+    position: absolute;
+}
+
+.jThumbnailScroller .jTscroller {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    *display: inline;
+}
+
+.jThumbnailScroller .jTscrollerNextButton,.jThumbnailScroller .jTscrollerPrevButton {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 82px;
+/*-moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px;/**/
+    opacity: 0.7;
+}
+
+.jThumbnailScroller .jTscrollerNextButton {
+    background: #e6e6e6 url(../images/nextArrow.png) no-repeat center center;
+}
+
+.jThumbnailScroller .jTscrollerPrevButton {
+    background: #e6e6e6 url(../images/prevArrow.png) no-repeat center center;
+}
+
+.jThumbnailScroller .jTscrollerNextButton:hover,.jThumbnailScroller .jTscrollerPrevButton:hover {
+/*background-color:#d56916;/**/
+    opacity: 1;
+}
+
+.jThumbnailScroller .jTscroller a {
+    display: block;
+    float: left;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    margin: 0px 00px 0px 0;
+    background: #fff;
+    padding: 15px 27px;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;;
+}
+
+.jThumbnailScroller .jTscroller a:hover {
+    border-color: #e6e6e6;
+}
+
+.jThumbnailScroller .jTscroller a:first-child {
+    margin-left: 0px;
+    border-left: 1px solid #e6e6e6;
+}
+
+.jThumbnailScroller .jTscroller a img {
+    border: none;
+}
+/* different styled scrollers */
+/* liquid width scroller */
+.jThumbnailScroller#tS1 {
+    width: 95%;
+}
+
+#vidoe_scroll .jTscrollerContainer{
+
+
+}
+
+.jThumbnailScroller .jTscroller a {
+    opacity: 0.7;
+}
+
+.jThumbnailScroller .jTscroller a:hover {
+    opacity: 1;
+    background: #f3f3f3;
+}
+
+.jThumbnailScroller .jTscrollerNextButton {
+    margin: 17px 0px 0 10px;
+    right: 0;
+
+}
+
+.jThumbnailScroller .jTscrollerPrevButton {
+    margin: 17px 0px 0 0px;
+    left: 0;
+
+}

@@ -1,0 +1,81 @@
+#messege_centercol{
+	margin:30px;
+	width:100%;
+	height:100%;
+}
+
+#messege_centercol #messege_centercol_sub{
+
+	background:red;
+	width:100%;
+	height:1px;
+	word-wrap:break-word;
+}
+
+#messege_centercol #messege_centercol_rows,#messege_centercol #messege_centercol_title{
+
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	height:20px;
+	padding-top:5px;
+	margin:10px;
+	width:520px;
+	
+
+}
+
+#messege_centercol #messege_centercol_title #messege_menu{
+
+	float:left;
+	margin-left:40px;
+	margin-right:30px;
+}
+
+
+#messege_centercol #messege_centercol_rows #messege_data{
+
+	float:left;
+	text-align:center;
+	width:80px;
+
+}
+
+#messege_centercol #sub_messege_centercol_rows{
+
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+
+	height:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:10px;
+	width:520px;
+	word-wrap:break-word;
+
+}
+
+#messege_centercol #sub_messege_centercol_rows #messege_data{
+	width:450px;
+	height:auto;
+
+}
+
+#messege_centercol #sub_messege_centercol_back{
+
+	margin-right:50px;
+	margin-bottom:10px;
+	width:50px;
+	height:25px;
+
+}
+
+
+
+#messege_centercol #messege_select_form select{
+    border: #cfcfcf 1px solid;
+    color: #404040;
+    font-size: 12px;
+    padding: 3px;
+	width:70px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}

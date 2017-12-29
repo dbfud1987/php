@@ -1,0 +1,74 @@
+#board {
+
+
+
+}
+
+#board #pass_input {
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	height:40px;
+	margin-bottom:10px;
+}
+
+
+#board #pass_input #pass_title{
+
+	padding-left:10px;
+	padding-top:10px;
+	float:left;
+	height:auto;
+}
+
+#board #pass_input #new_pass{
+	padding-left:100px;
+	padding-top:10px;
+
+}
+
+
+
+#board #name_input {
+border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	height:40px;
+		margin-bottom:10px;
+}
+
+
+#board #name_input #name_title{
+	padding-left:10px;
+	padding-top:10px;
+	float:left;
+	height:auto;
+}
+#board #name_input #new_name{
+padding-left:100px;
+	padding-top:10px;
+}
+
+
+
+#board #mail_input {
+border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	height:40px;
+}
+
+
+#board #mail_input #mail_title{
+		padding-left:10px;
+	padding-top:10px;
+	float:left;
+	height:auto;
+}
+
+#board #mail_input #new_mail{
+padding-left:100px;
+	padding-top:10px;
+}
+
+#board #submit_button{
+	padding-left:50px;
+	padding-top:10px;
+}

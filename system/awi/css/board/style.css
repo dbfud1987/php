@@ -1,0 +1,120 @@
+
+
+
+#top_box #view_box #sub_view_box #board #new_title_button{
+
+	width:auto;
+	height:20px;
+	font-size:20px;
+	margin-left:540px;
+	margin-bottom:5px;
+	color:red;
+}
+
+
+#top_box #view_box #sub_view_box #board #board_title{
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	width:auto;
+	height:35px;
+	margin-bottom:10px;
+	color:#696969;
+}
+
+#board #board_title #board_title_data{
+
+	width:100px;
+	text-align:center;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	font-size:15px;
+}
+
+
+#top_box #view_box #sub_view_box #board #row_title{
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	width:auto;
+	height:35px;
+	margin-bottom:10px;
+	color:#696969;
+}
+
+#board #row_title #board_title_data{
+
+
+	width:100px;
+	text-align:center;
+	margin-top:10px;
+	margin-left:14px;
+	float:left;
+	font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+#board #board_title #board_title_colum{
+	width:1px;
+	margin-top:8px;
+	margin-left:5px;
+	float:left;
+
+}
+
+#top_box #view_box #sub_view_box #board #row_title{
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	width:auto;
+	height:35px;
+	margin-bottom:10px;
+	color:#696969;
+}
+
+
+
+
+#new_title{
+	margin-left:20px;
+	margin-top:20px;
+	padding:10px;
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	width:500px;
+}
+
+#new_title #sub_new_title{
+	float:left;
+}
+
+#new_content{
+	margin:20px;
+	padding:10px;
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	width:500px;
+}
+
+#new_content #sub_new_content{
+	float:left;
+}
+
+#new_input{
+	margin:20px 20px 20px 100px;
+	padding:10px;
+
+	width:500px;
+}
+
+
+#page_control{
+
+
+}

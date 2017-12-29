@@ -1,0 +1,76 @@
+.f-carousel .carousel-feature {
+    padding-bottom: 0px;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    cursor: pointer;
+}
+
+.f-carousel .carousel-feature a img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    z-index: 29;
+    margin: 0;
+}
+
+.banner-image {
+    overflow: hidden;
+    border-radius: 4px;
+    background: #ececec;
+    padding: 5px;
+}
+
+.f-carousel .mask {
+    background: none;
+    width: 100%;
+    z-index: 9999999;
+    overflow: hidden;
+}
+
+.navig-carousel:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+}
+
+.navig-carousel {
+
+    top: 48%;
+    height: 0px;
+    margin: 0 auto;
+    z-index: 1099;
+    position: absolute;
+    width: 100%;
+}
+
+.navig-carousel .scarousel-left , .navig-carousel .scarousel-right {
+    cursor: pointer;
+    height: 41px;
+    margin-top: -12px;
+    width: 30px;
+}
+
+.scarousel-left {
+    float: left;
+    -moz-transition: margin-left 0.3s ease 0s;
+    background: url("../cs_skins/arrow-l.png") no-repeat scroll 0 0 transparent;
+}
+
+.scarousel-right {
+    float: right;
+    -moz-transition: margin-right 0.3s ease 0s;
+    background: url("../cs_skins/arrow-r.png") no-repeat scroll right 0 transparent;
+}
+
+.scarousel-left:hover {
+    background-position: 0 -41px;
+    padding-right: 5px;
+}
+
+.scarousel-right:hover {
+    background-position: right -41px;
+    padding-left: 5px;
+}
+

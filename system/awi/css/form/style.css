@@ -1,0 +1,87 @@
+#top_box{
+
+	width:1300px;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+#top_box #who_box{
+	float:left;
+	margin-left:950px;
+	margin-bottom:5px;
+	width:200px;
+	font-size:20px;
+	color:#000;
+
+
+}
+
+#top_box #logout_button{
+
+	margin-left:1150px;
+	margin-bottom:5px;
+	width:55px;
+	font-size:20px;
+	color:white;
+
+}
+
+
+#top_box #select_button{
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	width:200px;
+	float:left;
+	height:200px;
+}
+
+#top_box #select_button #sub_select_button{
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	margin-top:20px;
+	margin-left:50px;
+
+	width:80px;
+	text-align:center;
+
+}
+
+#top_box #select_button #sub_select_button a{
+	font-size:30px;
+}
+
+a:link, a:visited { text-decoration: none;color: #696969}
+
+a:hover,a:active {
+	text-decoration:none;
+	color:red;
+}
+
+
+
+#top_box #view_box{
+	border-top:1px dashed red;
+	border-bottom:1px dashed red;
+	width:1000px;
+	height:500px;
+	float:left;
+	margin-left:50px;
+}
+
+#top_box #view_box #sub_view_box{
+
+	width:600px;
+	height:440px;
+	float:left;
+	margin-left:50px;
+	margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
